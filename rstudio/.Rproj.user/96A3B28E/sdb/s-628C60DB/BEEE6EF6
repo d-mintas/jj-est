@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(plyr)\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(viridis)\nlibrary(forecast)\nlibrary(hts)\nlibrary(broom)\n\nrev.df <- read.csv(\"~/Documents/rev_8-3-16.csv\", stringsAsFactors = FALSE)\nsplit.df <- read.csv(\"~/Documents/split_8-3-16.csv\", stringsAsFactors = FALSE)\n\nrev.v <- rev.df$revenue %>% as.numeric()\nrev <- rev.v %>% ts(frequency = 12, start = c(2009, 1))\nrev11 <- rev.v[25:91] %>% ts(frequency = 12, start = c(2011, 1))\n\nlogrev <- log(rev.v) %>% ts(frequency = 12, start = c(2009, 1))\nlogrev11 <- log(rev.v[25:91]) %>% ts(frequency = 12, start = c(2011, 1))\n\nmts <- split.df[1:41, -c(1,2)] %>%\n  ts(frequency = 12, start = c(2013, 3))\n\nhs <- mts[, c(1,2)] %>%\n  hts(nodes = list(2))\n\netsfc.h <- hs %>%\n  forecast(h = 12, method = 'comb', fmethod = 'ets', parallel = TRUE,\n           num.cores = 12)\n\narimafc.h <- hs %>%\n  forecast(h = 12, method = 'comb', fmethod = 'arima', parallel = TRUE,\n           num.cores = 12)\n\n\netsfit.r <- ets(rev)\netsfit.r11 <- ets(rev11)\netsfit.lr <- ets(logrev)\netsfit.lr11 <- ets(logrev11)\n\netsfc.r <- etsfit.r %>% forecast(h = 36)\netsfc.r11 <- etsfit.r11 %>% forecast(h = 36)\netsfc.lr <- etsfit.lr %>% forecast(h = 36)\netsfc.lr11 <- etsfit.lr11 %>% forecast(h = 36)\n\narimafit.r <- auto.arima(rev, parallel = TRUE, num.cores =\n                           NULL, stepwise = FALSE, max.order = 14)\narimafit.r11 <- auto.arima(rev11, parallel = TRUE, num.cores = NULL,\n                           stepwise = FALSE, max.order = 14)\narimafit.lr <- auto.arima(logrev, parallel = TRUE, num.cores = NULL,\n                          stepwise = FALSE, max.order = 14)\narimafit.lr11 <- auto.arima(logrev11, parallel = TRUE, num.cores = NULL,\n                            stepwise = FALSE, max.order = 14)\n\narimafc.r <- arimafit.r %>% forecast(h = 36)\narimafc.r11 <- arimafit.r11 %>% forecast(h = 36)\narimafc.lr <- arimafit.lr %>% forecast(h = 36)\narimafc.lr11 <- arimafit.lr11 %>% forecast(h = 36)\n\nmodlist <- list(etsfc.r, etsfc.r11, etsfc.lr, etsfit.lr11, arimafc.r,\n                arimafc.r11, arimafc.lr, arimafc.lr11)\n\nacclist <- lapply(X = modlist, FUN = accuracy)\n\nfitted.tidy <- data_frame(actual = rev11, ets = exp(etsfc.lr11$fitted),\n                        arima = arimafc.r11$fitted) %>%\n  mutate(d = seq.Date(from = as.Date('2011-01-15'),\n                      to = as.Date('2016-07-15'), by = 'month')) %>%\n  mutate(avg = (ets + arima)/2) %>%\n  gather(series, amt, -d)\n\np <- ggplot(data = fitted.tidy, mapping = aes(x = d, y = amt, group = series))\np <- p + geom_line(aes(colour = series)) + scale_color_viridis(discrete = TRUE)\np\n\n\n# y_totals <- rev.df %>%\n#   group_by(year(date), add = TRUE) %>%\n#   summarise(yt = sum(revenue))\n#\n# rev_wt <- rev.df %>%\n#   group_by(year(date)) %>%\n#   mutate(cumsum = cumsum(revenue)) %>%\n#   ungroup() %>%\n#   mutate(tot = c(rep(y_totals$yt[1:7], each = 12),\n#                  rep(y_totals$yt[8], 6))) %>%\n#   mutate(cp = cumsum/tot)\n#\n# rev_gg <- data.frame(m = rep(1:12, 7), yr = rep(2009:2015, each = 12),\n#                      cp = rev_wt$cp[1:84])\n#\n# p <- ggplot(rev_gg, mapping = aes(x = m, y = cp,\n#                                           group = yr))\n# p <- p + geom_point(aes(colour = yr))\n# p\n",
+    "created" : 1470938041847.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1829245713",
+    "id" : "BEEE6EF6",
+    "lastKnownWriteTime" : 1470271593,
+    "last_content_update" : 1470271593,
+    "path" : "~/Projects/revenue-forecasting/fc-prep2.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

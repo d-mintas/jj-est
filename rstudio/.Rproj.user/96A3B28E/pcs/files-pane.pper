@@ -1,0 +1,9 @@
+{
+    "path" : "~/Projects/nba-stats/rstudio",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

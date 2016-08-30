@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(foreach)\nlibrary(iterators)\nlibrary(parallel)\nlibrary(doParallel)\nlibrary(plyr)\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(Matrix)\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(viridis)\nlibrary(broom)\nlibrary(xgboost)\nlibrary(randomForest)\nlibrary(caret)\nlibrary(caretEnsemble)\n\nregisterDoParallel(6, cores = 6)\ngetDoParWorkers()\n\nsetwd('/Users/Dino/Projects/nba-stats/rstudio')\nraw.df <- read.csv(file.path('data', 'sc.csv'))\n\nprep.df <- raw.df %>%\n  mutate(GRID_TYPE = NULL, PLAYER_ID = NULL, PLAYER_NAME = NULL,\n         SHOT_ATTEMPTED_FLAG = NULL, TEAM_ID = NULL, TEAM_NAME = NULL)\n\nplot.df <- prep.df %>%\n  select(LOC_X, LOC_Y, EVENT_TYPE)\n\np <- ggplot(data = plot.df, mapping = aes(\n  x = LOC_X, y = LOC_Y, group = EVENT_TYPE))\np <- p + geom_point(size = 2, alpha = .55, aes(colour = EVENT_TYPE)) +\n  scale_color_viridis(discrete = TRUE)\np\n\nr.df <- prep.df %>%\n  select(SHOT_DISTANCE, EVENT_TYPE)\n\nrg.df <- r.df %>%\n  mutate(MADE = as.numeric(EVENT_TYPE)) %>%\n  mutate(EVENT_TYPE = NULL) %>%\n  mutate(MADE = (MADE - 2) * (-1))\n\nglm2 <- glm(MADE ~ SHOT_DISTANCE,\n            family = binomial(), data = rg.df)\n\nglm.df <- plot.df %>%\n  mutate(MADE = as.numeric(EVENT_TYPE)) %>%\n  mutate(EVENT_TYPE = NULL) %>%\n  mutate(MADE = (MADE - 2) * (-1))\n\nglm1 <- glm(MADE ~ LOC_X + LOC_Y,\n            family = binomial(), data = glm.df)\n\n",
+    "created" : 1470353255263.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2330553397",
+    "id" : "9C5898AC",
+    "lastKnownWriteTime" : 1470686373,
+    "last_content_update" : 1470686373917,
+    "path" : "~/Projects/nba-stats/rstudio/data-prep.R",
+    "project_path" : "data-prep.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

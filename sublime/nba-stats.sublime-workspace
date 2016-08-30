@@ -1,0 +1,782 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"imgs_",
+				"imgs_raw	statement"
+			],
+			[
+				"pId",
+				"pId"
+			],
+			[
+				"pd",
+				"pandas"
+			],
+			[
+				"num",
+				"numpy	module"
+			],
+			[
+				"train",
+				"training_indices	statement"
+			],
+			[
+				"mask",
+				"mask_cols	statement"
+			],
+			[
+				"Mat",
+				"Materialize"
+			],
+			[
+				"g",
+				"getcwdu	function"
+			],
+			[
+				"XGBC",
+				"XGBClassifier"
+			],
+			[
+				"JSON",
+				"JSON-formatted"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"name",
+				"__name__"
+			],
+			[
+				"Context",
+				"ContextManager"
+			],
+			[
+				"decimal",
+				"Decimal"
+			],
+			[
+				"nums",
+				"nums_sum_sq"
+			],
+			[
+				"dataset",
+				"dataset2"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"js",
+				"test_json"
+			],
+			[
+				"bash",
+				"bash_profile"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "json",
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"js",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"vali",
+				"Pretty JSON: Validate"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"markdown prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"DataConverter: to Markdown (Github-flavored)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snip",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"snippe",
+				"Snippet: __magic__"
+			],
+			[
+				"pep",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"pylin",
+				"User: Python Flake8 Lint"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"dat",
+				"DataConverter: to JSON (array of rows)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal	",
+				"Package Control: Install Package"
+			],
+			[
+				"ainstal",
+				"Package Control: Install Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ana congoto",
+				"Anaconda: Goto Python object"
+			],
+			[
+				"ana",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"ana congo",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"anaconda",
+				"Anaconda: Goto Python object"
+			],
+			[
+				"install	",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"auto",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"side",
+				"Preferences: AutoPep8 Settings – Default"
+			],
+			[
+				"pylint",
+				"User: Python Flake8 Lint"
+			],
+			[
+				"pyfla",
+				"User: Python Flake8 Lint"
+			],
+			[
+				"pyflake",
+				"User: Python Flake8 Lint"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta	",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"table ",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package mana",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"(2324000+2312000)/2",
+			"(3363000+3000000)/2",
+			"res",
+			"3+4",
+			"python",
+			"python -m \"wgeom.py\"",
+			"python -m wgeom.py",
+			"3+4",
+			"print(\"hello\")",
+			"res",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Dino/anaconda/envs/main/lib/python3.5/site-packages/nba_py"
+	],
+	"file_history":
+	[
+		"/Users/Dino/anaconda/envs/main/lib/python3.5/site-packages/nba_py/constants.py",
+		"/Users/Dino/anaconda/envs/main/lib/python3.5/site-packages/nba_py/__init__.py",
+		"/Users/Dino/anaconda/envs/main/lib/python3.5/site-packages/nba_py/player.py",
+		"/Users/Dino/anaconda/envs/main/lib/python3.5/site-packages/nba_py/game.py",
+		"/Users/Dino/xgboost/R-package/src/Makevars",
+		"/Users/Dino/Downloads/Untitled.ipynb",
+		"/Users/Dino/Downloads/Manatee Proportions of Mortality.ipynb",
+		"/Users/Dino/anaconda/envs/keras/deep-learning-models/test_imagenet.py",
+		"/Users/Dino/Library/Application Support/LennarDigital/Sylenth1/Config/MidiLearn.dat",
+		"/Users/Dino/Library/Application Support/LennarDigital/Sylenth1/Config/Settings.xml",
+		"/Users/Dino/Projects/nba-stats/rstudio/data-prep.R",
+		"/Users/Dino/Downloads/Lennar Digital.Sylenth1.v2.21.VSTi.ONLYx86.[MacOSX]+PRESETS [x.rObel]/AiR-Keygen [Run ONLY WIN]/License.dat",
+		"/Users/Dino/Projects/designs-as-oo/main.py",
+		"/Users/Dino/Documents/CART_SESSION_SQL_QUERY.sql",
+		"/Users/Dino/Projects/marketo-data-pulls/initial-pull/get_data.py",
+		"/Users/Dino/Dropbox/Work/Projects/MISC/R/RStudio/revenue-forecasting/point forecast",
+		"/Users/Dino/Dropbox/Work/Projects/ADP_Data_Import/Python/adp-w-periscope_copy/readme.txt",
+		"/Users/Dino/Dropbox/jd_out.json",
+		"/Users/Dino/Documents/Email Queries/emails1.sql",
+		"/Users/Dino/Documents/Email Queries/emails_all.txt",
+		"/Users/Dino/Documents/Email Queries/all_comm_points.sql",
+		"/Users/Dino/Documents/Email Queries/q1.sql",
+		"/Users/Dino/Documents/Email Queries/q2.sql",
+		"/Users/Dino/Documents/Email Queries/comm_points_public.sql",
+		"/Users/Dino/je.csv",
+		"/Users/Dino/Dropbox/tgall.txt",
+		"/Users/Dino/Dropbox/tgfree.txt",
+		"/Users/Dino/Projects/marketo-data-pulls/free_email.py",
+		"/Users/Dino/Dropbox/rrr.csv",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/DataConverter/DataConverter.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/Users/Dino/Documents/Parallels/ame2.txt",
+		"/Users/Dino/Documents/Parallels/ame.txt",
+		"/Users/Dino/xgboost/demo/kaggle-higgs/README.md",
+		"/Users/Dino/Desktop/well.py",
+		"/Users/Dino/Documents/decred.py",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/Dino/anaconda/lib/python3.5/site-packages/xgboost-0.4-py3.5.egg/EGG-INFO/PKG-INFO",
+		"/Users/Dino/xgboost/demo/kaggle-higgs/speedtest.py",
+		"/Users/Dino/Desktop/dcollien-Dreamcoat-86ed221/js/jquery.js",
+		"/Users/Dino/Downloads/vibrant.js-master/bower_components/vibrant/index.html",
+		"/Users/Dino/Desktop/untitled",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/Dino/Desktop/dcollien-Dreamcoat-86ed221/untitled.html",
+		"/Users/Dino/Downloads/dcollien-Dreamcoat-86ed221/test.html",
+		"/Users/Dino/Desktop/dcollien-Dreamcoat-86ed221/test.html",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/user_snippets.xml",
+		"/Users/Dino/Documents/Parallels/g.txt",
+		"/Users/Dino/tpot/tutorials/tt.py",
+		"/Users/Dino/Dropbox/Personal/Tech Info/AWS-IAM-CREDS.txt",
+		"/Users/Dino/xgboost/Makefile",
+		"/Users/Dino/xgboost/config.mk",
+		"/Users/Dino/xgboost/python-package/.pylintrc",
+		"/Users/Dino/xgboost/NEWS.md",
+		"/Users/Dino/xgboost/make/config.mk",
+		"/Users/Dino/Downloads/tpot-master/tutorials/tpot_titanic_pipeline.py",
+		"/Users/Dino/Projects/machine_learning/README.md",
+		"/Users/Dino/Downloads/nmig-master/README.md",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Dino/Documents/ctr_1mb.py",
+		"/Users/Dino/Downloads/js.js",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/Users/Dino/Dropbox/Work/Design Text Analysis/bow2016.json",
+		"/Users/Dino/Downloads/libshorttext-1.1/README",
+		"/Users/Dino/Downloads/nmig-master 3/config.json",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/Flake8Lint.py",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/Default (OSX).sublime-keymap",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/color_theme.py",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/messages.json",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/Default.sublime-commands",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Package Control.merged-ca-bundle",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/Flake8Lint.sublime-settings",
+		"/Users/Dino/Downloads/pgloader-master/build/bin/eztees.load",
+		"/Users/Dino/Downloads/pgloader-master/README.md",
+		"/Users/Dino/Library/Application Support/Postgres/var-9.5/postgresql.conf",
+		"/Users/Dino/Library/Application Support/Postgres/var-9.5/pg_ident.conf",
+		"/Users/Dino/Library/Application Support/Postgres/var-9.5/pg_hba.conf",
+		"/Users/Dino/Library/Application Support/Postgres/var-9.5/postgresql.auto.conf",
+		"/Users/Dino/Library/Application Support/Postgres/var-9.5/postmaster.opts",
+		"/Users/Dino/Documents/postgresql.confbak",
+		"/Users/Dino/Library/Application Support/Postgres/var-9.5/postgres-server.log",
+		"/Users/Dino/Downloads/nmig-master 2/config.json",
+		"/Users/Dino/Downloads/nmig-master 2/README.md",
+		"/Users/Dino/Downloads/pgloader-master/pgloader.1.md",
+		"/Users/Dino/Downloads/libshorttext-1.1/demo/demo.py",
+		"/Users/Dino/Downloads/libshorttext-1.1/demo/train_file",
+		"/Users/Dino/Downloads/libshorttext-1.1/demo/train_file.svm",
+		"/Users/Dino/Dropbox/Work/SQLIte/repodata 2.json",
+		"/Users/Dino/Dropbox/Work/Projects/Marketo Account Analytics/RStudio/.Rproj.user/96A3B28E/sdb/s-49490E2D/FD6920C7",
+		"/Users/Dino/Dropbox/Work/Projects/Marketo Account Analytics/RStudio/.Rproj.user/96A3B28E/sdb/s-49490E2D/lock_file",
+		"/Users/Dino/Dropbox/Work/Design Text Analysis/MOST RECENT - bag of words analysis - grouped by designId - about to reshape data with Pandas and continue the analysis - 7.16.2015.json",
+		"/Users/Dino/tpot_test.py",
+		"/Users/Dino/Documents/rot_siteprice.py",
+		"/Users/Dino/Projects/image-entropy-algorithm/neighborhood_functions.py",
+		"/Users/Dino/Projects/image-entropy-algorithm/README.md",
+		"/Users/Dino/Projects/image-entropy-algorithm/main.py",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/xgb_clean/xgb_mod_fit.py",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/xgb_clean/xgb_comp.py",
+		"/Users/Dino/Dropbox/Work/SQLIte/rot_marketo.sql",
+		"/Users/Dino/greek_letters_test.txt",
+		"/Users/Dino/Projects/image-entropy-algorithm/requirements.txt",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/Dino/Downloads/mysql-connector-java-5.1.39/README",
+		"/Users/Dino/mm_emb_data.txt",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/csv-data/h2o-glm-1-preds",
+		"/Users/Dino/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/xgb_clean/Digraph.gv.pdf",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/xgb_clean/dump.raw.txt",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/xgb_clean/dump.raw.may16.txt",
+		"/Users/Dino/Dropbox/Work/Projects/COGS Estimation/profit-and-cogs-final/xgb_clean/dtrain_DMatrix_01_11_2016.data",
+		"/Users/Dino/Projects/profit-and-cogs-final/xgb_clean/xgb_main.py"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lea",
+			"leagu",
+			"get",
+			"_get",
+			"_api_",
+			"=",
+			"\"",
+			",",
+			"(-@)(.+)",
+			"(^.+)(@.+)",
+			"(.+@)(.+)",
+			"\"",
+			"yahoo.com",
+			"*/",
+			"/*",
+			"*/",
+			"color",
+			"analyseImage",
+			"clusters",
+			"6",
+			"6clusters",
+			"6",
+			"analyseIm",
+			"xgb",
+			", ",
+			"color",
+			"class",
+			"brogr",
+			"contra",
+			"Monokai",
+			"super",
+			"theme",
+			"color",
+			"theme",
+			"update",
+			"theme",
+			"\"\"\"",
+			"theme",
+			"color",
+			"theme",
+			"Dino",
+			"text",
+			"^     ",
+			"\\t",
+			"mem",
+			"\\t",
+			"('[A]\\?\\?)(.){1}",
+			"\"A\\?\\?\"",
+			"color",
+			"function k",
+			"mrac",
+			"mric",
+			"auc",
+			"train",
+			"name",
+			"(",
+			"(([A-Z0-9]))",
+			"version",
+			"Please",
+			"please ",
+			"Activate",
+			"from",
+			"Completed",
+			"out_data",
+			"bst",
+			"\\n\\r",
+			"\\r\\n",
+			"\\n",
+			"in_data0",
+			"in_data",
+			"xgboo",
+			"(\"inkCntList\":)([0-9])",
+			"dopasPerTab\":4",
+			"(\\[)([0-9],[0-9])(\\]),([0-9])",
+			"(\\[)([0-9],[0-9])(\\]),([0-9])+",
+			"(\\[)([0-9],[0-9]),([0-9]),(\\])",
+			"(\\[)([0-9],[0-9]),([0-9])(,)",
+			"(\\[)([0-9],[0-9])(\\])(,)([0-9])(,)",
+			"(\\[)([0-9],[0-9])(\\]),([0-9],)+",
+			"([0-9],[0-9],)",
+			"([0-9],[0-9],)+",
+			"([0-9],[0-9])+",
+			"([0-9],[0-9])",
+			"matched",
+			"([0-9])(\")",
+			"\",",
+			":\"",
+			"ContextManager",
+			"\\t",
+			"\\t ",
+			" [1-9][0-2]*\\:[0-5][0-9]\\:[0-5][0-9] ..",
+			",",
+			" ",
+			"  ",
+			"^(.{1,2})$",
+			"(^0)(.)$",
+			"(^0).\\g{1}",
+			"(Grid:)+",
+			"918500",
+			"(d\\s)(\\d)",
+			"(Grid)",
+			"/(Grid)/",
+			"\\n",
+			"Grid",
+			"/Grid/",
+			"\\n[^\\l]+",
+			",",
+			",,,,,,,,,,,,,",
+			"0",
+			"\\n",
+			"knowledge\n",
+			" 0:00",
+			"Jan-09,",
+			",	",
+			"229079",
+			"Justin",
+			"vertical-tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"$2",
+			"$1aAA",
+			"($1)aAA",
+			"$(2)",
+			"$(0)",
+			"$(1)",
+			"$",
+			"$1",
+			"{1}",
+			"",
+			"#",
+			"",
+			"'NULLCHAR",
+			"mrsc",
+			"mrac",
+			"test",
+			"",
+			"[$2\\]",
+			"$1\\[$2\\]",
+			"$1$2,$4$3",
+			"$1$2,$3,\\],",
+			"$1$2,$3,\\]",
+			"$1$2,$5,",
+			"\\[$1\\]",
+			"$1",
+			",",
+			":",
+			": ",
+			"",
+			"\\t",
+			"\\1:{",
+			"\\2",
+			"01",
+			"418200",
+			"d:$2",
+			"$1",
+			"d:$1",
+			"d 5",
+			"z",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "nba-stats.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 174.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
